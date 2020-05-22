@@ -1,0 +1,38 @@
+body {
+  position: relative;
+  background-color: #d6e2ef;
+  background-repeat: repeat-x;
+  background-position: top;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.main-body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 20px;
+  padding-top: 30px;
+  text-align: left;
+  min-height: 100%;
+  width: 100%;
+}
+
+.main-container {
+  height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .main-body {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+
+  .main-container {
+    height: 100%;
+  }
+}

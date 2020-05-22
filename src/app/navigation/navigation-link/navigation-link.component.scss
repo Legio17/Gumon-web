@@ -1,0 +1,29 @@
+.navigation-link {
+  position: center;
+  left: 30px;
+  border-left: 10px solid #c20e1d;
+  font-style: Arial;
+  font-weight: 500;
+}
+
+.navigation-link-container {
+  background-color: #e5e5e5;
+  padding: 20px;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 2px 1px 1px 0px #9d9c9c, 0 2px 2px #f2f2f2;
+}
+
+.navigation-link-title {
+  font-weight: 500;
+  font-size: 1.2em;
+  position: relative;
+  left: 10px;
+}
+
+@media (max-width: 576px) {
+  .navigation-link-container {
+    border-radius: 0px;
+  }
+}

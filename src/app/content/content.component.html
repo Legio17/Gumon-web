@@ -1,0 +1,15 @@
+<div class="content-container">
+  <div class="content">
+    <div class="media-body">
+      <h5 class="mt-0">{{ materialType.title }}</h5>
+      <div *ngFor="let material of materialType.list">
+        <a
+          href="assets/PDF/{{ materialType.title | lowercase }}/{{
+            material.name
+          }}.pdf"
+          >{{ material.name }}</a
+        >
+      </div>
+    </div>
+  </div>
+</div>

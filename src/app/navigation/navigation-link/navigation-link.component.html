@@ -1,0 +1,14 @@
+<div class="navigation-link-container">
+  <div class="navigation-link">
+    <div class="navigation-link-title">
+      Materiál podľa druhu
+    </div>
+    <ul class="nav flex-column" *ngFor="let material of materialList">
+      <li class="nav-item">
+        <a class="nav-link" href="#" (click)="changeActiveLink(material.id)">{{
+          material.title
+        }}</a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+{
+  "dataJSON": [
+    {
+      "id": 0,
+      "title": "Dosky",
+      "list": [
+        {
+          "name": "KART KE"
+        },
+        { "name": "MELAMIN" },
+        { "name": "MIKANIT" },
+        { "name": "SILIKON Si" },
+        { "name": "SKLOTEXT CU FR-4" },
+        { "name": "SKLOTEXT FR-4" },
+        { "name": "SKLOTEXT FR-5" },
+        { "name": "SKLOTEXT G-10" },
+        { "name": "SKLOTEXT G-11 220°C" },
+        { "name": "SKLOTEXT G-11" },
+        { "name": "TEXT  J a E" },
+        { "name": "TEXT J a H" }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "El.izolačné lep.pásky",
+      "list": [
+        { "name": "PPI - 1711A" },
+        { "name": "PPI - 84100" },
+        { "name": "PPI - 84150" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "El.izolačné trubičky a lakované sklo",
+      "list": [
+        {
+          "name": "El.hadičky GU"
+        },
+        {
+          "name": "El.trubičky SE"
+        },
+        { "name": "LST Polyuretan GU" },
+        { "name": "TRIVASIL GSE" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Tyče, rúry",
+      "list": [
+        { "name": "SKLOTEXT.TYČE" },
+        { "name": "VINUTÉ RÚRY ARV" },
+        { "name": "VINUTÉ RÚRY Hp" },
+        { "name": "VINUTÉ RÚRY TXT. a TYČE" }
+      ]
+    }
+  ]
+}

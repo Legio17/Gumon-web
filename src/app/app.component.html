@@ -1,0 +1,17 @@
+<div class="body">
+  <app-header></app-header>
+  <div class="main-container">
+    <div class="container-md">
+      <div class="main-body">
+        <app-navigation
+          [materialList]="materialList"
+          (changedSelector)="changeSelector($event)"
+        ></app-navigation>
+        <app-content
+          [materialType]="materialList[selectedLinkID]"
+        ></app-content>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>
