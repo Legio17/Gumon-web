@@ -4,6 +4,12 @@ import { MaterialContentList } from './models/webcontent.interface';
 
 import { dataJSON } from './data.json';
 
+interface PageNavigation {
+  link: string;
+  name: string;
+  exact: boolean;
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,14 +17,32 @@ import { dataJSON } from './data.json';
 })
 export class AppComponent {
   title = 'Gumon';
-  materialList: MaterialContentList[];
-  selectedLinkID = 0;
 
-  ngOnInit(): void {
-    this.materialList = dataJSON;
-  }
-
-  changeSelector(selectedLinkID: number) {
-    this.selectedLinkID = selectedLinkID;
-  }
+  listOfNav: PageNavigation[] = [
+    {
+      link: '/',
+      name: 'Domov',
+      exact: true,
+    },
+    {
+      link: '/material',
+      name: 'Materiál',
+      exact: true,
+    },
+    {
+      link: '/order',
+      name: 'Objednávka',
+      exact: true,
+    },
+    {
+      link: '/location',
+      name: 'Lokácia',
+      exact: true,
+    },
+    {
+      link: '/contact',
+      name: 'Kontakt',
+      exact: true,
+    },
+  ];
 }

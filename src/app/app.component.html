@@ -1,17 +1,17 @@
 <div class="body">
   <app-header></app-header>
-  <div class="main-container">
-    <div class="container-md">
-      <div class="main-body">
-        <app-navigation
-          [materialList]="materialList"
-          (changedSelector)="changeSelector($event)"
-        ></app-navigation>
-        <app-content
-          [materialType]="materialList[selectedLinkID]"
-        ></app-content>
-      </div>
-    </div>
+
+  <div class="page-navigation">
+    <a
+      *ngFor="let navItem of listOfNav"
+      [routerLink]="navItem.link"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: navItem.exact }"
+      >{{ navItem.name }}</a
+    >
   </div>
+
+  <main><router-outlet></router-outlet></main>
+
   <app-footer></app-footer>
 </div>

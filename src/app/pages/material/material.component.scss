@@ -1,0 +1,19 @@
+.material-body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 20px;
+  padding-top: 30px;
+  text-align: left;
+  min-height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .material-body {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+}
