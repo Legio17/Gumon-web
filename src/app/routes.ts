@@ -7,7 +7,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/notFound/notfound.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'home', component: HomeComponent, pathMatch: 'full' },
   { path: 'material', component: MaterialComponent, pathMatch: 'full' },
   { path: 'order', component: OrderComponent, pathMatch: 'full' },
   { path: 'location', component: LocationComponent, pathMatch: 'full' },

@@ -20,7 +20,7 @@ export class AppComponent {
 
   listOfNav: PageNavigation[] = [
     {
-      link: '/',
+      link: '/home',
       name: 'Domov',
       exact: true,
     },

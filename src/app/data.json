@@ -26,7 +26,10 @@
       "list": [
         { "name": "PPI - 1711A" },
         { "name": "PPI - 84100" },
-        { "name": "PPI - 84150" }
+        { "name": "PPI - 84150" },
+        { "name": "PPI - izol.lep.pásky pre olejovéTransformátory" },
+        { "name": "PPI - izol.lep.pásky pre Transformátory  a cievky" },
+        { "name": "PPI - izol.pásky vinutie a drážky" }
       ]
     },
     {
@@ -45,12 +48,52 @@
     },
     {
       "id": 3,
-      "title": "Tyče, rúry",
+      "title": "Izolačné tyče a rúry",
       "list": [
         { "name": "SKLOTEXT.TYČE" },
         { "name": "VINUTÉ RÚRY ARV" },
         { "name": "VINUTÉ RÚRY Hp" },
-        { "name": "VINUTÉ RÚRY TXT. a TYČE" }
+        { "name": "VINUTÉ RÚRY TXT. a TYČE" },
+        { "name": "Wacosit UL94 V0" },
+        { "name": "Wacosit" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Drážkové a fázové izolácie",
+      "list": [
+        { "name": "Hyperten 2000HP" },
+        { "name": "Trivoltherm N" },
+        { "name": "Trivoltherm NKN" },
+        { "name": "Trivoltherm P (NEN)" },
+        { "name": "Trivoltherm P-S1 fázový" },
+        { "name": "Trivoltherm P-SW" },
+        { "name": "Trivolton H" },
+        { "name": "Trivolton HP" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Elektroizolačné lepenky a papiere",
+      "list": [
+        { "name": "DPP Presspan" },
+        { "name": "Krepové trubičky" },
+        { "name": "Lištové koberce a rebríčky" },
+        { "name": "Powerboard AK tabule" },
+        { "name": "Presspan formovateľný" },
+        { "name": "Presspany" },
+        { "name": "Trafopresspan 3050" },
+        { "name": "Trafopresspan 3055" },
+        { "name": "Vlnová lepenka" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Impregnované izolácie - Prepregy",
+      "list": [
+        { "name": "Prepreg EFBE 0714" },
+        { "name": "Prepregy" },
+        { "name": "Transformátorový prepreg" }
       ]
     }
   ]
