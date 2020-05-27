@@ -8,7 +8,11 @@ import { NotFoundComponent } from './pages/notFound/notfound.component';
 
 export const routes: Routes = [
   { path: 'home', component: HomeComponent, pathMatch: 'full' },
-  { path: 'material', component: MaterialComponent, pathMatch: 'full' },
+  {
+    path: 'material/:materialId',
+    component: MaterialComponent,
+    pathMatch: 'full',
+  },
   { path: 'order', component: OrderComponent, pathMatch: 'full' },
   { path: 'location', component: LocationComponent, pathMatch: 'full' },
   { path: 'contact', component: ContactComponent, pathMatch: 'full' },

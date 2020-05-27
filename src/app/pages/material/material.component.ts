@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { MaterialContentList } from './../../models/webcontent.interface';
 
 import { dataJSON } from './../../data.json';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-material',
@@ -11,7 +12,14 @@ import { dataJSON } from './../../data.json';
 })
 export class MaterialComponent {
   materialList: MaterialContentList[];
-  selectedLinkID = 0;
+  selectedLinkID: number = 0;
+
+  constructor(ar: ActivatedRoute) {
+    ar.params.subscribe((data) => {
+      this.selectedLinkID = data.materialId;
+      console.log('materialID: ', data.materialId);
+    });
+  }
 
   ngOnInit(): void {
     this.materialList = dataJSON;

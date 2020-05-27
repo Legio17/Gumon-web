@@ -25,7 +25,7 @@ export class AppComponent {
       exact: true,
     },
     {
-      link: '/material',
+      link: '/material/0',
       name: 'Materiál',
       exact: true,
     },
