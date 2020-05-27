@@ -5,9 +5,12 @@
     </div>
     <ul class="nav flex-column" *ngFor="let material of materialList">
       <li class="nav-item">
-        <a class="nav-link" href="#" (click)="changeActiveLink(material.id)">{{
-          material.title
-        }}</a>
+        <a
+          class="nav-link"
+          href="material/{{ material.title }}"
+          (click)="changeActiveLink(material.id)"
+          >{{ material.title }}</a
+        >
       </li>
     </ul>
   </div>

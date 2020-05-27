@@ -15,9 +15,8 @@ import { NotFoundComponent } from './pages/notFound/notfound.component';
 import { HeaderComponent } from './header/header.component';
 
 // navigation
-import { NavigationComponent } from './navigation/navigation.component';
-import { NavigationLinkComponent } from './navigation/navigation-link/navigation-link.component';
-import { NewsComponent } from './navigation/news/news.component';
+import { NavigationComponent } from './pages/material/components/navigation/navigation.component';
+import { NavigationLinkComponent } from './pages/material/components/navigation/navigation-link/navigation-link.component';
 
 // content
 import { ContentComponent } from './content/content.component';
@@ -42,7 +41,6 @@ import { routes } from './routes';
     HeaderComponent,
     NavigationComponent,
     NavigationLinkComponent,
-    NewsComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],

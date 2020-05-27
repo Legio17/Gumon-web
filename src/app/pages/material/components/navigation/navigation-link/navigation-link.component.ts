@@ -7,8 +7,7 @@ import {
   Input,
 } from '@angular/core';
 
-import { MaterialContentList } from './../../models/webcontent.interface';
-
+import { MaterialContentList } from './../../../../../models/webcontent.interface';
 @Component({
   selector: 'app-navigation-link',
   templateUrl: './navigation-link.component.html',

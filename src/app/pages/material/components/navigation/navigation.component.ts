@@ -1,7 +1,6 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
-import { NavigationLinkComponent } from './navigation-link/navigation-link.component';
 
-import { MaterialContentList } from './../models/webcontent.interface';
+import { MaterialContentList } from '../../../../models/webcontent.interface';
 
 @Component({
   selector: 'app-navigation',
