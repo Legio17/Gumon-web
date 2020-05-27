@@ -17,8 +17,4 @@ export class NavigationComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-
-  onChangeSelector(selectedLinkID: number) {
-    this.changedSelector.emit(selectedLinkID);
-  }
 }

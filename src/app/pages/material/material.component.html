@@ -2,10 +2,7 @@
   <div class="material-container">
     <div class="container-md">
       <div class="material-body">
-        <app-navigation
-          [materialList]="materialList"
-          (changedSelector)="changeSelector($event)"
-        ></app-navigation>
+        <app-navigation [materialList]="materialList"></app-navigation>
         <app-content
           [materialType]="materialList[selectedLinkID]"
         ></app-content>

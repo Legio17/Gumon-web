@@ -1,11 +1,4 @@
-import {
-  Component,
-  OnInit,
-  OnChanges,
-  EventEmitter,
-  Output,
-  Input,
-} from '@angular/core';
+import { Component, EventEmitter, Output, Input } from '@angular/core';
 
 import { MaterialContentList } from './../../../../../models/webcontent.interface';
 @Component({
@@ -13,7 +6,7 @@ import { MaterialContentList } from './../../../../../models/webcontent.interfac
   templateUrl: './navigation-link.component.html',
   styleUrls: ['./navigation-link.component.scss'],
 })
-export class NavigationLinkComponent implements OnInit, OnChanges {
+export class NavigationLinkComponent {
   @Input()
   materialList: MaterialContentList[];
 
@@ -21,13 +14,6 @@ export class NavigationLinkComponent implements OnInit, OnChanges {
   changedSelector: EventEmitter<number> = new EventEmitter();
 
   constructor() {}
-
-  changeActiveLink(id: number) {
-    this.changedSelector.emit(id);
-    return false;
-  }
-
-  ngOnChanges(changes) {}
 
   ngOnInit(): void {}
 }

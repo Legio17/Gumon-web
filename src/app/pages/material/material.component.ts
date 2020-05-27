@@ -24,8 +24,4 @@ export class MaterialComponent {
   ngOnInit(): void {
     this.materialList = dataJSON;
   }
-
-  changeSelector(selectedLinkID: number) {
-    this.selectedLinkID = selectedLinkID;
-  }
 }
