@@ -25,6 +25,7 @@ export class NavigationLinkComponent implements OnInit, OnChanges {
 
   changeActiveLink(id: number) {
     this.changedSelector.emit(id);
+    return false;
   }
 
   ngOnChanges(changes) {}
