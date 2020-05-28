@@ -1,12 +1,6 @@
 <div>
-  <div class="material-container">
-    <div class="container-md">
-      <div class="material-body">
-        <app-navigation [materialList]="materialList"></app-navigation>
-        <app-content
-          [materialType]="materialList[selectedLinkID]"
-        ></app-content>
-      </div>
-    </div>
+  <div class="material-body">
+    <app-navigation [materialList]="materialList"></app-navigation>
+    <app-content [materialType]="materialList[selectedLinkID]"></app-content>
   </div>
 </div>
