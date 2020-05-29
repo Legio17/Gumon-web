@@ -20,7 +20,7 @@ export class AppComponent {
 
   listOfNav: PageNavigation[] = [
     {
-      link: '/home',
+      link: '/',
       name: 'Domov',
       exact: true,
     },
@@ -34,11 +34,11 @@ export class AppComponent {
       name: 'Objednávka',
       exact: true,
     },
-    {
+    /*     {
       link: '/location',
       name: 'Lokácia',
       exact: true,
-    },
+    }, */
     {
       link: '/contact',
       name: 'Kontakt',

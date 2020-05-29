@@ -8,3 +8,12 @@ export interface MaterialContentList {
   title: string;
   list: MaterialComponent[];
 }
+
+export interface OrderMessage {
+  Name: string;
+  Surname: string;
+  Company: string;
+  Email: string;
+  ContactNumber: string;
+  Message: string;
+}

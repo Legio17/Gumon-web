@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class OrderComponent {
   ngOnInit(): void {}
+
+  orderSumbmit() {
+    console.log('order send');
+  }
 }

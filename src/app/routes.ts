@@ -7,7 +7,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/notFound/notfound.component';
 
 export const routes: Routes = [
-  { path: 'home', component: HomeComponent, pathMatch: 'full' },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
   {
     path: 'material/:materialId',
     component: MaterialComponent,
@@ -16,5 +16,5 @@ export const routes: Routes = [
   { path: 'order', component: OrderComponent, pathMatch: 'full' },
   { path: 'location', component: LocationComponent, pathMatch: 'full' },
   { path: 'contact', component: ContactComponent, pathMatch: 'full' },
-  { path: '**', component: NotFoundComponent },
+  { path: '**', redirectTo: '' },
 ];
