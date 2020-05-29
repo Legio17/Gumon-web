@@ -1,8 +1,45 @@
-<div>
-  Dopyt : Povinná kolonka............<br />
-  Názov firmy / meno a priezvisko Povinná kolonka............ <br />
-  email kontakt Optionálna kolonka.................... <br />
-  tel.kontakt Kolonka.......................... <br />
-  Dopyt / Objednávka Tlačítko na odoslanie presmerované u nás na
-  info@gumon.eu<br />
+<div class="order-container">
+  <h2>Dopyt</h2>
+  <br />
+
+  <form>
+    <div class="form-row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Meno" />
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Priezvisko" />
+      </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+      <label for="inputCompanyName">Nazov firmy</label>
+      <input type="text" class="form-control" id="inputCompanyName" />
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+      />
+    </div>
+    <div class="form-group">
+      <label for="inputContactNumber">Tel.kontakt</label>
+      <input type="text" class="form-control" id="inputContactNumber" />
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Objednávka</label>
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Odoslat</button>
+  </form>
 </div>
