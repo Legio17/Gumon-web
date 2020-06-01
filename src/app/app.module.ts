@@ -42,7 +42,7 @@ import { routes } from './routes';
     NavigationComponent,
     NavigationLinkComponent,
   ],
-  imports: [BrowserModule, RouterModule.forRoot(routes)],
+  imports: [BrowserModule, RouterModule.forRoot(routes, { useHash: true })],
   providers: [],
   bootstrap: [AppComponent],
 })

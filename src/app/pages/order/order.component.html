@@ -11,7 +11,7 @@
           class="form-control"
           placeholder="Meno"
           required
-          name="prveMeno"
+          name="prveMeno:"
         />
       </div>
       <div class="col">
@@ -21,7 +21,7 @@
           class="form-control"
           placeholder="Priezvisko"
           required
-          name="_druhemeno"
+          name="druheMeno:"
         />
       </div>
     </div>
@@ -29,7 +29,12 @@
 
     <div class="form-group">
       <label for="inputCompanyName">Názov firmy</label>
-      <input type="text" class="form-control" id="inputCompanyName" />
+      <input
+        type="text"
+        class="form-control"
+        id="inputCompanyName"
+        name="nazovFirma:"
+      />
       <small id="companyHelp" class="form-text text-muted"
         >(Nepovinné pole)</small
       >
@@ -42,12 +47,18 @@
         class="form-control"
         id="exampleInputEmail1"
         aria-describedby="emailHelp"
+        name="email:"
         required
       />
     </div>
     <div class="form-group">
       <label for="inputContactNumber">Tel.kontakt</label>
-      <input type="text" class="form-control" id="inputContactNumber" />
+      <input
+        type="text"
+        class="form-control"
+        id="inputContactNumber"
+        name="tel.kontakt:"
+      />
       <small id="inputContactNumberHelp" class="form-text text-muted"
         >(Nepovinné pole)</small
       >
@@ -58,6 +69,7 @@
         class="form-control"
         id="exampleFormControlTextarea1"
         rows="5"
+        name="objednavka:"
         required
       ></textarea
       ><br />

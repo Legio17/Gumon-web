@@ -31,7 +31,7 @@ export class AppComponent {
     },
     {
       link: '/order',
-      name: 'Objednávka',
+      name: 'Dopyt',
       exact: true,
     },
     /*     {
