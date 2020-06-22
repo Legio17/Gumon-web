@@ -17,3 +17,8 @@ export interface OrderMessage {
   ContactNumber: string;
   Message: string;
 }
+
+export interface NewsPost {
+  Date: string;
+  Content: string;
+}

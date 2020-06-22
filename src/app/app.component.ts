@@ -25,6 +25,11 @@ export class AppComponent {
       exact: true,
     },
     {
+      link: '/news',
+      name: 'Novinky',
+      exact: true,
+    },
+    {
       link: '/material/0',
       name: 'Materiál',
       exact: true,
