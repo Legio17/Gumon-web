@@ -19,6 +19,6 @@ export interface OrderMessage {
 }
 
 export interface NewsPost {
-  Date: string;
-  Content: string;
+  date: string;
+  content: string;
 }

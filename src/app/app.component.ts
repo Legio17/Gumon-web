@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
 
-import { MaterialContentList } from './models/webcontent.interface';
-
-import { dataJSON } from './data.json';
-
 interface PageNavigation {
   link: string;
   name: string;

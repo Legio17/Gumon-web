@@ -17,7 +17,6 @@ export class MaterialComponent {
   constructor(ar: ActivatedRoute) {
     ar.params.subscribe((data) => {
       this.selectedLinkID = data.materialId;
-      console.log('materialID: ', data.materialId);
     });
   }
 

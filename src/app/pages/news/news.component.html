@@ -1,19 +1,34 @@
-<mat-card>
-  <form>
-    <mat-form-field>19/06/2020 </mat-form-field>
-    <mat-form-field class="content-area">
-      <textarea
-        matInput
-        matTextareaAutosize
-        formControlName="content"
-        placeholder="content"
-        disabled
-      >
-      You should see the material slider component on the page.
+<div *ngFor="let news of newsList">
+  <mat-card>
+    <div *ngIf="adminMode">
+      <form>
+        <textarea
+          matInput
+          formControlName="content"
+          placeholder="content"
+        ></textarea>
+        <textarea
+          matInput
+          formControlName="content"
+          placeholder="content"
+        ></textarea>
+      </form>
+    </div>
+    <div *ngIf="!adminMode">
+      <div class="content-area">{{ news.date }}</div>
+      <div class="content-area">{{ news.content }}</div>
+    </div>
+  </mat-card>
+</div>
 
-      In addition to the install schematic, Angular Material comes with several schematics (like nav, table, address-form,
-      etc.) that can be used to easily generate pre-built components in your application.</textarea
-      >
-    </mat-form-field>
-  </form>
-</mat-card>
+<!--       <mat-form-field matInput formControlName="content">{{
+              news.date
+            }}</mat-form-field>
+      <mat-form-field matInput class="content-area">
+        <textarea matInput placeholder="content" matTextareaAutosize formControlName="content" disabled *ngIf="adminMode">
+              {{ news.content }}
+            </textarea>
+        <div>
+          {{ news.content }}
+        </div>
+      </mat-form-field> -->

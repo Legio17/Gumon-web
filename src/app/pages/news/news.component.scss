@@ -1,11 +1,14 @@
 .content-area {
   width: 100%;
-
-  .text {
-  }
+  padding: 10px;
 }
 
 textarea {
   resize: none !important;
   overflow: hidden !important;
+  width: 100%;
+}
+
+mat-Card {
+  margin-top: 20px;
 }
