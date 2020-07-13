@@ -31,6 +31,11 @@ export class AppComponent {
       exact: true,
     },
     {
+      link: '/material-processing',
+      name: 'Opracovanie materiálov',
+      exact: true,
+    },
+    {
       link: '/order',
       name: 'Dopyt',
       exact: true,

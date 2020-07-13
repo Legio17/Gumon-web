@@ -6,6 +6,7 @@ import { LocationComponent } from './pages/location/location.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NewsComponent } from './pages/news/news.component';
 import { NotFoundComponent } from './pages/notFound/notfound.component';
+import { MaterialProcessingComponent } from './pages/material-processing/material-processing.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -18,5 +19,10 @@ export const routes: Routes = [
   { path: 'location', component: LocationComponent, pathMatch: 'full' },
   { path: 'contact', component: ContactComponent, pathMatch: 'full' },
   { path: 'news', component: NewsComponent, pathMatch: 'full' },
+  {
+    path: 'material-processing',
+    component: MaterialProcessingComponent,
+    pathMatch: 'full',
+  },
   { path: '**', redirectTo: '' },
 ];

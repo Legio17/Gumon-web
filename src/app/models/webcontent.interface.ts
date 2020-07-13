@@ -7,6 +7,7 @@ export interface MaterialContentList {
   id: number;
   title: string;
   list: MaterialComponent[];
+  images: string[];
 }
 
 export interface OrderMessage {

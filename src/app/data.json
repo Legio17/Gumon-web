@@ -18,7 +18,8 @@
         { "name": "SKLOTEXT G-11" },
         { "name": "TEXT  J a E" },
         { "name": "TEXT J a H" }
-      ]
+      ],
+      "images": ["Dosky"]
     },
     {
       "id": 1,
@@ -30,7 +31,8 @@
         { "name": "PPI - izol.lep.pásky pre olejovéTransformátory" },
         { "name": "PPI - izol.lep.pásky pre Transformátory  a cievky" },
         { "name": "PPI - izol.pásky vinutie a drážky" }
-      ]
+      ],
+      "images": ["El.izolačné lepiace pásky", "El.izolačné lepiace pásky2"]
     },
     {
       "id": 2,
@@ -44,7 +46,8 @@
         },
         { "name": "LST Polyuretan GU" },
         { "name": "TRIVASIL GSE" }
-      ]
+      ],
+      "images": ["El.izolačné trubiťky a lakované sklo"]
     },
     {
       "id": 3,
@@ -56,7 +59,8 @@
         { "name": "VINUTÉ RÚRY TXT. a TYČE" },
         { "name": "Wacosit UL94 V0" },
         { "name": "Wacosit" }
-      ]
+      ],
+      "images": ["Izolačné tyče a rúry", "Izolačné tyče a rúry2"]
     },
     {
       "id": 4,
@@ -70,7 +74,8 @@
         { "name": "Trivoltherm P-SW" },
         { "name": "Trivolton H" },
         { "name": "Trivolton HP" }
-      ]
+      ],
+      "images": ["Drážková izolacia"]
     },
     {
       "id": 5,
@@ -85,7 +90,8 @@
         { "name": "Trafopresspan 3050" },
         { "name": "Trafopresspan 3055" },
         { "name": "Vlnová lepenka" }
-      ]
+      ],
+      "images": ["Elektroizolačné lepenky a papiere"]
     },
     {
       "id": 6,
@@ -94,7 +100,8 @@
         { "name": "Prepreg EFBE 0714" },
         { "name": "Prepregy" },
         { "name": "Transformátorový prepreg" }
-      ]
+      ],
+      "images": ["Impregnovane izolacie-prepregy"]
     }
   ]
 }

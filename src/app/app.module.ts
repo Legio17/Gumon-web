@@ -36,6 +36,7 @@ import { FooterComponent } from './footer/footer.component';
 // routes
 import { routes } from './routes';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialProcessingComponent } from './pages/material-processing/material-processing.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     NavigationComponent,
     NavigationLinkComponent,
+    MaterialProcessingComponent,
   ],
   imports: [
     BrowserModule,

@@ -20,6 +20,14 @@
   height: 100%;
 }
 
+.content-image {
+  margin: 10px;
+}
+
+.content-imageBox {
+  display: flex;
+}
+
 @media (max-width: 576px) {
   .content {
     position: center;

@@ -13,6 +13,15 @@
           >{{ material.name }}</a
         >
       </div>
+      <div class="content-imageBox" *ngIf="materialType.images.length > 0">
+        <div *ngFor="let materialImage of materialType.images">
+          <img
+            class="content-image"
+            src="assets/img/material-type-examples/{{ materialImage }}.jpg"
+            height="100"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </div>
