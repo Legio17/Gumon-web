@@ -40,11 +40,11 @@ export class AppComponent {
       name: 'Dopyt',
       exact: true,
     },
-    /*     {
+    {
       link: '/location',
       name: 'Lokácia',
       exact: true,
-    }, */
+    },
     {
       link: '/contact',
       name: 'Kontakt',
